@@ -1,0 +1,63 @@
+---
+title: "Homework 1"
+author: "Amr Elsayegh"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  pdf_document: default
+---
+
+
+```{r}
+library(tidyverse)
+library(foreign)
+data <- read.dta("Data/mto_sci_puf_cells_20130206.dta")
+```
+
+# Showing header level 1
+
+## Showing header level 2
+
+
+_Showing italicized text_
+
+
+__Showing bold text__
+
+
+Showing ordered list
+
+  1. component 1
+  2. component 2
+  3. component 3
+      + element 3a
+      + element 3b
+      
+
+* Showing unordered list
+  + part-one
+  + part-two
+    - sub-part-one
+  + part-three
+
+
+![](C:/Users/amrel/Google Drive/PhD/Courses/Spring 2021 Semester/Advanced Engineering Management Science/Homeworks/Hw1/hw1-amrelsayegh/Data/s.jpg)
+
+```{r}
+x <- 10 # side of a square
+```
+
+The area of a square with a side 'r x', is 'r x^2'
+
+```{r}
+# my_variable <- 10
+# my_varıable
+# Error: object 'my_varıable' not found
+```
+
+the letter i is not the same as in defining the variable so it presented such error for the output
+
+# Using 4 hashes before and after text to create section and easily find it through huge code ("https://twitter.com/karo_urb/status/1271061743360528384")
+
+
+
+# It is P-Value Fishing for me as I believe that most researchers want their analysis of data to be significant to confirm their views and can try multiple techniques or different variations of the same technique until they get the value they want (i.e., less than 0.05). 
