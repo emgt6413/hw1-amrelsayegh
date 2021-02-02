@@ -46,7 +46,7 @@ Showing ordered list
 x <- 10 # side of a square
 ```
 
-The area of a square with a side 'r x', is 'r x^2'
+The area of a square with a side `r x`, is `r x^2`
 
 ```{r}
 # my_variable <- 10
